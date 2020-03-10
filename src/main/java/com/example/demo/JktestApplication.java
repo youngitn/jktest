@@ -13,7 +13,7 @@ public class JktestApplication extends SpringBootServletInitializer {
 		return application.sources(JktestApplication.class);
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		SpringApplication.run(JktestApplication.class, args);
 	}
 
